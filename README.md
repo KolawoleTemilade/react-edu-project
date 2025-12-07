@@ -1,18 +1,14 @@
-# React + Vite
+What is NPM & package.json ?
+What is Vite?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+answer 1a:
+ NPM (Node Package Manager) it is a tool that is used for Installing packages or libraries like react, vites ..., it also manages project dependencies this tool comes automatically with Node.js.. 
+in summary, when you run "npm install react", it downloads react into your project.
 
-Currently, two official plugins are available:
+answer 1b:
+package.json is a file that is created automatically in every Node project.
+It stores information about the project, such like the project name, the project version, the dependencies (React, Vite, Tailwind, etc.) as well as the scripts (like npm run dev)..
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+answer 2:
+Vite is a tool used to run and build frontend applications very fast. It is mostly used with React, Vue, Svelte, etc. using vites in a project, gives user a very fast local development server (npm run dev) a fast hot reload (changes update in the browser instantly) a production build tools and also a  clean project setup. Compared to ordinary create a react app, using vite makes the project faster regardless of the project size.
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
