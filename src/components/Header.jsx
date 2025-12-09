@@ -8,11 +8,9 @@ const Header = () => {
         <h2>edunity</h2>
       </div>
       <Navigations/>
-
-      <Button variant="primary" size="md">
-          this is another primary button
+      <Button variant="primary" size="lg">
+     primary button
       </Button>
-     
     </div>
   )
 }
