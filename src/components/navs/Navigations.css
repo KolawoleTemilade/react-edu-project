@@ -1,0 +1,11 @@
+.nav_list{
+    width: 50%;
+  }
+  .nav_list ul{
+   display: flex;
+   justify-content: space-between;
+   text-transform: capitalize;
+  }
+  ul li{
+   display: flex;
+  }

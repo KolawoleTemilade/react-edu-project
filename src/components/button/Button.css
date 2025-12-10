@@ -1,0 +1,57 @@
+  .btn{
+    cursor: pointer;
+    height: 58.5px;
+    border: none;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    padding: 16px 0 16px 15px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap:1.875rem;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  /* VARIANTS */
+  .btn-primary {
+    background: var(--primarycolor);
+    color: white;
+  }
+  
+  .btn-secondary {
+    background: white;
+    color: #2563eb;
+    border: 0.125rem solid #2563eb;
+  }
+  
+  /* SIZES */
+  .btn-sm {
+    /* padding: 0.375rem 1.375rem; */
+    font-size: 0.875rem;
+  }
+  
+  .btn-md {
+    /* padding: 0.625rem 1rem; */
+    font-size: 1rem;
+  }
+  
+  .btn-lg {
+    /* padding: 0.875rem 1.375rem; */
+    font-size: 1.125rem;
+  }
+  .btn-icon {
+    background: var(--secondarycolor);
+    border: 0.0625rem solid transparent;
+    border-radius: 50%;
+    padding: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .btn-icon img{
+    width: 3.25rem;
+    height: 3.25rem;
+  }

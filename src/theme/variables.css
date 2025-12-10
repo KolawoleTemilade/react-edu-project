@@ -1,0 +1,13 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --primarycolor: #2FC7A1;
+    --secondarycolor: #35D7AE;
+    --tetiarycolor:#2FC7A126;
+    --textcolor:#333931;
+    --inputcolor: #4D5756;
+    --bigtextcolor:#17254E
+  }
+  
+  
