@@ -1,14 +1,19 @@
 :root {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    --primarycolor: #2FC7A1;
-    --secondarycolor: #35D7AE;
-    --tetiarycolor:#2FC7A126;
-    --textcolor:#333931;
-    --inputcolor: #4D5756;
-    --bigtextcolor:#17254E;
-    --metricscolor:#704FE6;
-  }
-  
-  
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --primarycolor: #2fc7a1;
+  --secondarycolor: #35d7ae;
+  --tetiarycolor: #2fc7a126;
+  --textcolor: #333931;
+  --inputcolor: #4d5756;
+
+  /* purple color */
+  --metricscolor: #704fe6;
+  /* orange color */
+  --o-primarycolor: #fe543d;
+
+  /* black colors */
+  --b-primarycolor: #0e2a46;
+  --bigtextcolor: #17254e;
+}

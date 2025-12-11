@@ -1,0 +1,102 @@
+.aboutSec{
+    display: flex;
+    gap: 50px;
+    margin: 60px auto;
+}
+.imgSec{
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+}
+.firstFrame{
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+}
+.abtIcon{
+    margin-top: -40px;
+   /* position: absolute; */
+}
+.metrics{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/* text section */
+
+.textSecContainer{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.logoArea{
+    display: flex;
+    align-items: center;
+}
+.logoArea p{
+    color: var(--o-primarycolor);
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.textSec{
+    width: 42rem;
+    padding: 10px 10px 10px 0;
+    margin: 0;
+}
+.titleCase{
+    width: 40.5rem;
+    margin: 0;
+}
+.titleCase h2{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    font-family: sans-serif,poppins;
+    line-height: 49px;
+    text-transform: capitalize;
+    text-align: left;
+    width: 34.2156rem;
+    margin: 0;
+}
+.prof{
+    color: var(--o-primarycolor);
+}
+.subtitle{
+    color: var(--inputcolor);
+    width: 33.8125rem;
+    font-size: 1.0625rem;
+    line-height: 32px;
+    margin: 0;
+}
+
+/* mission and vission */
+.missionVission{
+    display: flex;
+    justify-content: space-between;
+}
+.missionVission h4{
+    font-size: 1.0625rem;
+    line-height: 1.0625rem;
+    font-weight: 700;
+    width: 8.06rem;
+    color: var(--b-primarycolor);
+    margin: 0 20px 0 0;
+    text-transform: uppercase;
+}
+.missionVission p{
+    width: 18.9756rem;
+    font-size: 1.0625rem;
+    line-height: 2rem;
+    color: var(--textcolor);
+    margin: 0;
+
+}
+.mission, .vission{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 0;
+}
+
