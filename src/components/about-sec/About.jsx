@@ -1,12 +1,13 @@
 import "./About.css";
 import Button from "../button/Button";
-import AboutLogo from "../../assets/icons/aboutLogo.svg?react";
+import TitleLogo from "../../assets/icons/titleLogo.svg?react";
 import AboutGirl from "../../assets/images/aboutgirl.svg?react";
 import About2 from "../../assets/images/about2.svg?react";
 import AboutIcon from "../../assets/icons/aboutIcon.svg?react";
 import AboutMetrics from "../../assets/images/aboutMetrics.svg?react";
 
 const About = () => {
+    
   return (
     <div className="aboutSec">
       <div className="imgSec">
@@ -22,7 +23,7 @@ const About = () => {
       <div className="textSecContainer">
         <div className="textSec">
           <div className="logoArea">
-            <AboutLogo />
+            <TitleLogo />
             <p>about us</p>
           </div>
           <div className="titleCase">

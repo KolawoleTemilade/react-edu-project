@@ -59,6 +59,7 @@
     text-align: left;
     width: 34.2156rem;
     margin: 0;
+    color: var(--b-primarycolor);
 }
 .prof{
     color: var(--o-primarycolor);
