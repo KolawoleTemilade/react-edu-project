@@ -1,0 +1,83 @@
+.statusValues {
+ position: relative;
+}
+.statusLine{
+    position: absolute;
+    right: 0px;
+    top: -80px;
+}
+.graduateCap{
+    position: absolute;
+    bottom: 0px;
+}
+.dotted{
+    position: absolute;
+    left: 500px;
+    top: -40px;
+}
+.dotteds{
+    position:absolute;
+    bottom: -60px;
+    right: 500px;
+    /* left: 00px; */
+}
+.backgroundImages{
+    margin: 80px auto;
+    display: flex;
+    gap: 50px;
+    width: 1280px;
+    padding: 40px;
+}
+
+/* normally, this here is repeated on about, and on about css, the stylings worked for this status even before i put this styling here... */
+.titleCase h2 {
+  font-size: 2.8125rem;
+  font-weight: 700;
+  font-family: sans-serif, "poppins"; /* get the original poppins*/
+  line-height: 49px;
+  text-transform: capitalize;
+  text-align: left;
+  width: 34.2156rem;
+  margin: 0;
+  color: var(--b-primarycolor);
+}
+.school {
+  color: var(--o-primarycolor);
+}
+.subtitle {
+  color: var(--inputcolor);
+  width: 33.125rem;
+  font-size: 1.0625rem;
+  line-height: 32px;
+  margin: 0;
+}
+
+/* status section */
+.study {
+  position: relative;
+  padding-top: 40px;
+}
+.study p {
+  position: absolute;
+  font-size: 1.0625rem;
+  margin: 0;
+  font-weight: 600;
+  font-family: var(--sora);
+}
+
+/* image area starts here */
+.imgArea {
+  position: relative;
+}
+.imgBackground {
+  width: 219px;
+  height: 730px;
+  background: var(--o-primarycolor);
+  position: absolute;
+  left: 400px;
+  z-index: -999;
+}
+.statusImage{
+    position: absolute;
+    top: 20px;
+}
