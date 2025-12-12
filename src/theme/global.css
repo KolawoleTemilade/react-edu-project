@@ -1,9 +1,12 @@
 #root {
   max-width: 1980px;
+  border: 5px solid brown;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 body {
-  text-align: left; 
+  /* text-align: left;  */
+  /* width: 100%; */
+  
 }

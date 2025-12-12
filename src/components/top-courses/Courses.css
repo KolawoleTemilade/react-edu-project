@@ -1,6 +1,11 @@
 .coursesSection{
-    margin: 60px auto;
-    border: 2px solid brown;
+    border: 2px solid transparent;
+    background: #F2F2F2;
+
+}
+.courses{
+    width: 1280px;
+    margin: 50px auto;
 }
 .titleContainer{
     display: flex;
@@ -37,18 +42,23 @@
 
 /* card section */
 .cardContainer{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
 }
-.card{
-    border: 4px solid ;
-    width: 424px;
-    height: 30%;
-    padding: 2%;
-  
+.cardbox{
+    border: 4px solid  transparent;
+    width: 380px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
 }
 .courseImages{
     position: relative;
+}
+.courseImages img{
+    width: 100%;
 }
 .courseImages p{
     position: absolute;
