@@ -1,0 +1,66 @@
+.enrollContainer{
+    background: var(--b-primarycolor);
+    padding: 120px 0;
+    position: relative;
+}
+.ark{
+    position: absolute;
+    
+}
+.lines{
+position: absolute;
+right: 0;
+top: 0;
+}
+.waves{
+    position: absolute;
+    right: 220px;
+    bottom: 170px;
+}
+.loader{
+    position: absolute;
+    right: 800px;
+    top: 300px;
+}
+.textSec{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    /* border: 2px solid; */
+    text-transform: capitalize; 
+    gap: 20px;  
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.newSession{
+    font-size: 1.4375rem;
+    font-weight: 600;
+    font-family: var(--sora);
+    line-height: 2rem;
+    color: var(--o-primarycolor);
+    margin: 0;
+}
+.enrollSec{
+    /* border: 2px solid white; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.titleSec h3, .titleSec p{
+    color: #fff;
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    text-align: left;
+    width: 47.5rem;
+    margin: 0;
+}
+.playSec p{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+.playSec p:hover{
+    color: rgba(239, 238, 238, 0.721);
+}

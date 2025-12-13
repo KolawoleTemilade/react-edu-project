@@ -30,8 +30,8 @@ export default function Features() {
     },
   ];
   return (
-    <div className="featuresSec">
-      <div className="features">
+    <div className="featuresContainer">
+      <div className="featuresSec">
         <div className="titleArea">
           <div className="logoSec">
             <TitleLogo />

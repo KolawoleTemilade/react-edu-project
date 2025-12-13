@@ -5,6 +5,7 @@ import About from "../../components/about-sec/About"
 import Courses from "../../components/top-courses/Courses"
 import Status from "../../components/status-values/Status"
 import Features from "../../components/edunity-features/Features"
+import Enroll from "../../components/enrollment-sec/Enroll"
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
         <Courses/>
         <Status/>
         <Features/>
+        <Enroll/>
       
     </div>
   )

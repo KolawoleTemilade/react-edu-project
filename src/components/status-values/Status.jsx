@@ -12,12 +12,12 @@ import Dotted from "../../assets/icons/dottedimg.svg?react";
 export default function Status() {
   return (
     <div className="statusValues">
-        <span className="statusLine">
+        <div className="statusLine">
               <StatusLine/>
-        </span>
-        <span className="graduateCap">
+        </div>
+        <div className="graduateCap">
             <GraduateCap/>
-        </span>
+        </div>
         <div className="dotted">
             <Dotted/>
         </div>
