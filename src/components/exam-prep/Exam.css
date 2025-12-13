@@ -1,0 +1,109 @@
+/* =======================
+   Exam Section Container
+======================= */
+.examContainer {
+  width: 100%;
+}
+
+.examSec {
+  max-width: 1280px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* =======================
+     Title Area
+  ======================= */
+.titleArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.examlogoSec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.examlogoSec p{
+font-size: 1.25rem;
+}
+
+.titleArea h2 {
+  max-width: 650px;
+  margin: 0;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  line-height: 49px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: var(--b-primarycolor);
+}
+
+/* Exam Text*/
+.examText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 640px;
+  /* border: 4px solid #fff; */
+  align-items: start;
+  
+}
+
+.examtitle {
+  font-size: 1.25rem;
+  font-family: var(--sora);
+  text-transform: capitalize;
+}
+
+.subtitle {
+  max-width: 280px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: var(--epilogue);
+  color: #fff;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  min-height: 220px;
+  color: #fff;
+  width: 40.625rem;
+}
+
+.card.primary {
+  background: var(--b-primarycolor);
+  position: relative;
+}
+.card.primary .imgSec{
+    margin-top: 0px;
+    margin-bottom: -30px;
+}
+
+.card.secondary {
+  background: var(--primarycolor);
+  position: relative;
+}
+
+
+.card.secondary .imgSec{
+/* border: 6px solid brown; */
+position: absolute;
+bottom: 0;
+right: -250px;
+}

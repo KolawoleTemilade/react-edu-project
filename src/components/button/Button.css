@@ -20,9 +20,9 @@
   }
   
   .btn-secondary {
-    background: white;
-    color: #2563eb;
-    border: 0.125rem solid #2563eb;
+    background: var(--b-primarycolor);
+    color: white;
+    border: 0.125rem solid transparent;
   }
   
   /* SIZES */
