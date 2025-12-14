@@ -9,6 +9,7 @@ import Enroll from "../../components/enrollment-sec/Enroll"
 import Exam from "../../components/exam-prep/Exam"
 import Online from "../../components/online-school/Online"
 import Events from "../../components/explore-events/Events"
+import Teacher from "../../components/teacher-sec/Teacher"
 
 const Landing = () => {
   return (
@@ -23,6 +24,7 @@ const Landing = () => {
         <Exam/>
         <Online/>
         <Events/>
+        <Teacher/>
       
     </div>
   )
