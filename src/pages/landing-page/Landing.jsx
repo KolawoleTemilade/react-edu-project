@@ -7,6 +7,7 @@ import Status from "../../components/status-values/Status"
 import Features from "../../components/edunity-features/Features"
 import Enroll from "../../components/enrollment-sec/Enroll"
 import Exam from "../../components/exam-prep/Exam"
+import Online from "../../components/online-school/Online"
 
 const Landing = () => {
   return (
@@ -19,6 +20,7 @@ const Landing = () => {
         <Features/>
         <Enroll/>
         <Exam/>
+        <Online/>
       
     </div>
   )
