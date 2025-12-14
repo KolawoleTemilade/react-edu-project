@@ -10,7 +10,7 @@ export default function Exam() {
       <section className="examSec">
         {/* Title Area */}
         <div className="titleArea">
-          <div className="examlogoSec">
+          <div className="logoSec">
             <TitleLogo />
             <p>exam preparation</p>
             <TitleLogo />

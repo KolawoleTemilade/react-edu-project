@@ -1,0 +1,95 @@
+.exploreContainer{
+    position: relative;
+    /* padding: 80px; */
+}
+.explore{
+    max-width: 80rem;
+    margin:120px auto;
+
+}
+.eArk{
+    position: absolute;
+    left: 80px;
+
+}
+.eWaves{
+    position: absolute;
+    right: 900px;
+    top: 130px;
+}
+.eCap{
+    position: absolute;
+    bottom: -10px;
+    right: 900px;
+}
+.eIcon{
+    position: absolute;
+    right: 60px;
+    top: 100px;
+}
+
+/* text section */
+.eventSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+.eventTextSec{
+    max-width: 43.75rem;
+}
+.eventTitleSec{
+    display: flex;
+    flex-direction: column;
+}
+.eventTitle{
+    display: flex;
+    gap: 8px;
+    text-transform: capitalize;
+    color: var(--primarycolor);
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 2rem;
+    font-family: var(--sora);
+}
+.eventSubtitle h4{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    font-family: "poppins";
+    line-height: 49.5px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.eventTexts{
+    font-size: 1.0625rem;
+    margin: 0;
+    line-height: 2rem;
+    font-family: var(--sora);
+}
+.lorem{
+    font-weight: 600;
+    color: var(--b-primarycolor);
+}
+.ipsum{  
+    color: var(--textcolor);
+}
+
+
+/* image section */
+.imgTextSec{
+    position: relative;
+}
+.eventImage{
+    position: relative;
+}
+.eventDots{
+    position: absolute;
+    top: 15px;
+}
+.eventBorder{
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+}
