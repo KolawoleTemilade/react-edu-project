@@ -10,6 +10,7 @@ import Exam from "../../components/exam-prep/Exam"
 import Online from "../../components/online-school/Online"
 import Events from "../../components/explore-events/Events"
 import Teacher from "../../components/teacher-sec/Teacher"
+import BlogPost from "../../components/popular-post/BlogPost"
 
 const Landing = () => {
   return (
@@ -25,6 +26,7 @@ const Landing = () => {
         <Online/>
         <Events/>
         <Teacher/>
+        <BlogPost/>
       
     </div>
   )

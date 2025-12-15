@@ -1,0 +1,65 @@
+.blogPostBody{
+    width: 1280px;
+    margin: 200px auto;
+    position: relative;
+}
+.blogArk{
+    position: absolute;
+    right: 550px;
+    top: 50px;
+}
+.blogTitleSec{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: .875rem;
+    color: var(--primarycolor);
+}
+.blogSubtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.blogSubtitle h4{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    font-family: sans-serif, "poppins"; /* get the original poppins*/
+    line-height: 49px;
+    text-transform: capitalize;
+    margin: 0;
+    color: var(--b-primarycolor);
+}
+.postCardSection{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    /* border: 2px solid brown; */
+    /* align-items: center; */
+}
+.blogCard{
+    /* border: 4px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background: rgba(207, 200, 200, 0.322);
+    border-radius: 8px;
+}
+
+.mainCommentSec{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+.dateSec, .commentSec{
+    display: flex;
+    align-items: center;
+    gap: 8px;  
+    text-transform: capitalize;
+}
+.blogTextSec h4{
+    font-size: 1.27rem;
+    font-weight: 700;
+    max-width: 22.6563rem;
+}
