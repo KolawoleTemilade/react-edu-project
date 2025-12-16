@@ -32,13 +32,13 @@ export default function Features() {
   return (
     <div className="featuresContainer">
       <div className="featuresSec">
-        <div className="titleArea">
-          <div className="logoSec">
+        <div className="featuresTitleArea">
+          <div className="featuresLogoSec">
             <TitleLogo />
             <p>edunity features</p>
             <TitleLogo />
           </div>
-          <h2>Check out educate features win any exam</h2>
+          <h4>Check out educate features win any exam</h4>
         </div>
 
         <div className="detailsCard">

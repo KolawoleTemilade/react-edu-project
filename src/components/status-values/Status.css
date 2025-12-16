@@ -17,7 +17,7 @@
 }
 .dotteds{
     position:absolute;
-    bottom: -60px;
+    bottom: 10px;
     right: 500px;
     /* left: 00px; */
 }
@@ -30,7 +30,15 @@
 }
 
 /* normally, this here is repeated on about, and on about css, the stylings worked for this status even before i put this styling here... */
-.titleCase h2 {
+.statusLogoSec{
+  color: var(--primarycolor);
+  font-size: .875rem;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 8px;
+}
+.statusTitleCase h2 {
   font-size: 2.8125rem;
   font-weight: 700;
   font-family: sans-serif, "poppins"; /* get the original poppins*/
@@ -44,7 +52,7 @@
 .school {
   color: var(--o-primarycolor);
 }
-.subtitle {
+.statusSubtitle {
   color: var(--inputcolor);
   width: 33.125rem;
   font-size: 1.0625rem;
@@ -74,7 +82,8 @@
   height: 730px;
   background: var(--o-primarycolor);
   position: absolute;
-  left: 400px;
+  right: 180px;
+  top: 5px;
   z-index: -999;
 }
 .statusImage{

@@ -5,29 +5,40 @@ import Triangle from "../../assets/icons/onlinetriangle.svg?react";
 import Quote from "../../assets/icons/onlinequote.svg?react";
 import Profile from "../../assets/icons/onlineprofile.svg?react";
 
-export default function Online() {
+export default function Online({ text = "online school", repeat = 12 }) {
   return (
     <div className="onlineContainer">
-      <div className="marque">
+      <div className="marquee">
+        <div className="marquee-track">
+          {Array.from({ length: repeat }).map((_, i) => (
+            <span key={i} className="marqueeTexts">
+              <span className="dot">
+                <OnlineIcon />
+              </span>
+              {text}
+            </span>
+          ))}
+        </div>
+      </div>
+      {/* <div className="marque">
         <OnlineIcon />
         <p> online school </p>
-      </div>
+      </div> */}
       <div className="onlineBody">
         <div className="onlineContent">
-
-        <div className="content">
-          <div>
-            <OnlineLady />
+          <div className="content">
+            <div>
+              <OnlineLady />
+            </div>
+            <div className="triangle">
+              <Triangle />
+            </div>
           </div>
-          <div className="triangle">
-            <Triangle />
-          </div>
-        </div>
-        <div className="textCardSec">
+          <div className="textCardSec">
             <span className="">
               <Quote />
             </span>
-            
+
             <div className="textSection">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

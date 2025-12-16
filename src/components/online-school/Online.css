@@ -1,6 +1,50 @@
-.marque{
+/* .marque{
   background: var(--o-primarycolor);
   display: flex;
+}
+.marque p{
+  font-size: 35px;
+  font-family: var(--sora);
+  line-height: 2.05rem;
+  color: #fff;
+} */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background: var(--o-primarycolor);
+  padding: 12px 0;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 18s linear infinite;
+  
+}
+
+.marquee-track span {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-right: 40px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+
+}
+
+.dot {
+  margin-left: 8px;
+}
+
+/* animation */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* the main section */

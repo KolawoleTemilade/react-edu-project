@@ -26,18 +26,18 @@ export default function Status() {
         </div>
         <div className="backgroundImages">
 
-      <div className="textArea">
-        <div className="logoSec">
+      <div className="StatusTextArea">
+        <div className="statusLogoSec">
           <TitleLogo />
           <p>our status values</p>
         </div>
-        <div className="titleCase">
+        <div className="statusTitleCase">
           <h2>
             Our Classroom is a very deferent{" "}
             <span className="school">school</span> than all the others
           </h2>
         </div>
-        <div className="subtitle">
+        <div className="statusSubtitle">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
@@ -79,7 +79,7 @@ export default function Status() {
           
         </div>
       </div>
-      <div className="imgArea">
+      <div className="StatusImgArea">
         <div className="imgBackground"></div>
        <span className="statusImage"><StatusImg /></span> 
       </div>

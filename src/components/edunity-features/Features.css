@@ -8,17 +8,21 @@
     margin:0 auto;
     padding: 120px 0px;
 }
-.titleArea{
+.featuresTitleArea{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.logoSec{
+.featuresLogoSec{
     display: flex;
+    align-items: center;
+    color: var(--primarycolor);
+    text-transform: uppercase;
+    font-size: .875rem;
     gap: 8px;
 }
-.titleArea h2{
+.featuresTitleArea h4{
     font-size: 2.8125rem;
     font-weight: 700;
     font-family: sans-serif, "poppins"; /* get the original poppins*/
