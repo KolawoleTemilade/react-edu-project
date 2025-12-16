@@ -36,7 +36,7 @@ export default function Teacher() {
   return (
     <div className="teacherContainer">
       <div className="teacherBg">
-        <div className="titleContainer">
+        <div className="teacherTitleContainer">
           <div className="teacherTitle">
             <TitleLogo />
             <p>teacher</p>

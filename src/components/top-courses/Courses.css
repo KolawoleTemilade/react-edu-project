@@ -7,27 +7,27 @@
     width: 1280px;
     margin: 80px auto;
 }
-.titleContainer{
+.coursesTitleContainer{
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
-.logoSec{
+.coursesLogoSec{
     display: flex;
     align-items: center;
 }
-.logoSec p{
+.coursesLogoSec p{
     color: var(--primarycolor);
     font-size: .75rem;
     text-transform: uppercase;
     margin: 0;
 }
-.title {
+.coursesTitle {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.title h2{
+.coursesTitle h2{
     font-size: 2.8125rem;
     font-weight: 700;
     font-family: sans-serif,poppins;

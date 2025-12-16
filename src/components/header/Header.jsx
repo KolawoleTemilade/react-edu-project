@@ -3,9 +3,12 @@ import SearchIcon from "../..//assets/icons/search.svg?react";
 import Navigations from "../navs/Navigations";
 import Button from "../button/Button";
 import "./Header.css";
+import HeaderBanner from "./HeaderBanner";
+
 const Header = () => {
   return (
-    // <div className="headerSection">
+    <div className="headerSections">
+      <HeaderBanner/>
       <div className="headerSection">
         <div className="logo">
           <Logo />
@@ -18,7 +21,7 @@ const Header = () => {
           create account
         </Button>
       </div>
-    // </div>
+    </div>
   );
 };
 

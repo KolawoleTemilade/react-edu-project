@@ -1,20 +1,23 @@
-/* =======================
-   Exam Section Container
-======================= */
 .examContainer {
-  width: 100%;
+  /* width: 100%; */
+position: relative;
 }
+.globe{
+  position: absolute;
+  left: 40px;
 
+}
+.examIcon{
+  position: absolute;
+  right: 40px;
+}
 .examSec {
-  max-width: 1280px;
+  width: 1280px;
   margin: 60px auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
-/* =======================
-     Title Area
-  ======================= */
-.titleArea {
+.examTitleArea {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,13 +25,16 @@
   text-align: center;
 }
 
-.logoSec {
+.examLogoSec {
   display: flex;
   align-items: center;
   gap: 8px;
+  color: var(--primarycolor);
+  text-transform: uppercase;
+  font-size: .875rem;
 }
 
-.titleArea h2 {
+.examTitleArea h2 {
   max-width: 650px;
   margin: 0;
   font-size: 2.8125rem;
@@ -45,7 +51,7 @@
   flex-direction: column;
   gap: 12px;
   max-width: 640px;
-  border: 4px solid #fff;
+  /* border: 4px solid #fff; */
   align-items: start;
   
 }
@@ -94,6 +100,6 @@
   background: var(--primarycolor);
 }
 .card.secondary .imgSec{
-border: 6px solid brown;
+/* border: 6px solid brown; */
 margin-bottom: -60px;
 }

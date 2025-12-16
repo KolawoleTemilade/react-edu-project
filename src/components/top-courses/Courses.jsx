@@ -87,13 +87,13 @@ export default function Courses() {
   return (
     <div className="coursesSection">
       <div className="courses">
-        <div className="titleContainer">
+        <div className="coursesTitleContainer">
           <div className="enrolltitleSec">
-            <div className="logoSec">
+            <div className="coursesLogoSec">
               <TitleLogo />
               <p>top popular course</p>
             </div>
-            <div className="title">
+            <div className="coursesTitle">
               <h2> check out educate features win any exam</h2>
             </div>
           </div>

@@ -47,7 +47,7 @@
   padding: 20px 0px 20px 20px;
   margin: 0;
 }
-.titleCase h2 {
+.aboutTitleCase h2 {
   font-size: 2.8125rem;
   font-weight: 700;
   font-family: sans-serif, poppins; /* get the original poppins*/
@@ -61,7 +61,7 @@
 .prof {
   color: var(--o-primarycolor);
 }
-.subtitle {
+.aboutSubtitle {
   color: var(--inputcolor);
   width: 33.125rem;
   font-size: 1.0625rem;

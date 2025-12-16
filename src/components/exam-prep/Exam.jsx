@@ -3,14 +3,22 @@ import "./Exam.css";
 import ExamLady from "../../assets/images/examlady.svg?react";
 import TitleLogo from "../../assets/icons/titleLogo.svg?react";
 import ExamMan from "../../assets/images/examman.svg?react";
+import Globe from "../../assets/icons/globe.svg?react";
+import ExamIcon from "../../assets/icons/examicon.svg?react";
 
 export default function Exam() {
   return (
     <div className="examContainer">
+      <div className="globe">
+        <Globe />
+      </div>
+      <div className="examIcon">
+        <ExamIcon />
+      </div>
       <section className="examSec">
         {/* Title Area */}
-        <div className="titleArea">
-          <div className="logoSec">
+        <div className="examTitleArea">
+          <div className="examLogoSec">
             <TitleLogo />
             <p>exam preparation</p>
             <TitleLogo />

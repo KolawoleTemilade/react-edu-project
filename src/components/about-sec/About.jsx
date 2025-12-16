@@ -26,13 +26,13 @@ const About = () => {
             <TitleLogo />
             <p>about us</p>
           </div>
-          <div className="titleCase">
+          <div className="aboutTitleCase">
             <h2>
               Benefit from our online learning expertise earn{" "}
               <span className="prof">professional</span>
             </h2>
           </div>
-          <div className="subtitle">
+          <div className="aboutSubtitle">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore.
